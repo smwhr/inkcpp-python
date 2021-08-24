@@ -67,8 +67,8 @@ cmake ..
 ```
 
 #### Options
-If `cmake` does not find your `pybinding11` package your can specify the `PYTHON_SITE_PACKAGES` var.  
-Foe example if you are using `pyenv`, `cmake` won't find the current python install.
+If `cmake` does not find your `pybinding11` package you can specify the `PYTHON_SITE_PACKAGES` env variable.  
+(For example if you are using `pyenv`, `cmake` won't find the current python install.)
 
 ```
 PYTHON_SITE_PACKAGES=~/.pyenv/versions/3.9.6/lib/python3.9/site-packages cmake ..
@@ -87,5 +87,10 @@ INKCPP_SOURCE_DIR="/somewhere/else" cmake ..
 ```
 cd build
 make
+make install
 
 ```
+
+## Test
+
+_TBD_
