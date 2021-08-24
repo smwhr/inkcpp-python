@@ -45,6 +45,5 @@ if __name__ == "__main__":
 	bin_file = sys.argv[1] if len(sys.argv) >= 2 else (
 		os.path.realpath(os.path.dirname(os.path.realpath(__file__)) + "/../ink/sample.bin")
 	)
-	print(bin_file)
 	player = InkPythonPlayer(bin_file)
 	player.play()

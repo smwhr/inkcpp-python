@@ -1,5 +1,4 @@
-# AUTHOR: Héloïse
-Once upon a time... # LOCATION: Boat
+Once upon a time... # LOCATION: MagicKingdom
 
  * There were two choices.
  * There were four lines of content.

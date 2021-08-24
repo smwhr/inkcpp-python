@@ -25,8 +25,28 @@ while(1):
 
 ```
 
-The input must be in binary format
+The input must be in binary format.  
+Use `inkcpp_cl`
 
+```bash
+inkcpp_cl you_ink_file.ink
+# OR
+inkcpp_cl you_ink_file.json
+
+```
+
+A sample player can be found in the `python` folder with a sample game file (`sample.bin`) in the `ink` folder.
+
+```
+$ python python/player.py ink/sample.bin
+
+Once upon a time... #LOCATION: MagicKingdom
+
+1> There were two choices.
+2> There were four lines of content.
+?>
+
+```
 
 ## Build
 
