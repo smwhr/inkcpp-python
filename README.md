@@ -52,7 +52,7 @@ Once upon a time... #LOCATION: MagicKingdom
 
 ### Dependancies
 * `python3` 
-* `pybinding11` (use `pip install pybinding11` or your preferred installer)
+* `pybind11` (use `pip install pybind11` or your preferred installer)
 * [InkCpp](https://github.com/brwarner/inkcpp) (git clone it in a sister repository)
 
 
@@ -67,7 +67,7 @@ cmake ..
 ```
 
 #### Options
-If `cmake` does not find your `pybinding11` package you can specify the `PYTHON_SITE_PACKAGES` env variable.  
+If `cmake` does not find your `pybind11` package you can specify the `PYTHON_SITE_PACKAGES` env variable.  
 (For example if you are using `pyenv`, `cmake` won't find the current python install.)
 
 ```
